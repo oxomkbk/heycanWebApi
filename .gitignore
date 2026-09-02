@@ -1,0 +1,40 @@
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+
+# Camoufox Reverse MCP - 只保留源代码文件
+# 忽略：文档、测试、CI/CD 配置
+camoufox-reverse-mcp/README.md
+camoufox-reverse-mcp/README_en.md
+camoufox-reverse-mcp/docs/
+camoufox-reverse-mcp/tests/
+camoufox-reverse-mcp/.github/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.log
+*.tmp
+
+# 分析报告（不需要提交）
+heycan_sign_analysis_report.md
+DEPLOY_LINUX.md
+
+# 内部文档（不需要提交）
+camoufox-reverse-mcp/docs/JSVMP_PLAYBOOK.md
+camoufox-reverse-mcp/docs/releases/
+.qoder/
